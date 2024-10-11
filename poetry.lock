@@ -557,6 +557,17 @@ files = [
 widechars = ["wcwidth"]
 
 [[package]]
+name = "types-psycopg2"
+version = "2.9.21.20240819"
+description = "Typing stubs for psycopg2"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-psycopg2-2.9.21.20240819.tar.gz", hash = "sha256:4ed6b47464d6374fa64e5e3b234cea0f710e72123a4596d67ab50b7415a84666"},
+    {file = "types_psycopg2-2.9.21.20240819-py3-none-any.whl", hash = "sha256:c9192311c27d7ad561eef705f1b2df1074f2cdcf445a98a6a2fcaaaad43278cf"},
+]
+
+[[package]]
 name = "types-requests"
 version = "2.32.0.20240914"
 description = "Typing stubs for requests"
@@ -569,6 +580,17 @@ files = [
 
 [package.dependencies]
 urllib3 = ">=2"
+
+[[package]]
+name = "types-tabulate"
+version = "0.9.0.20240106"
+description = "Typing stubs for tabulate"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-tabulate-0.9.0.20240106.tar.gz", hash = "sha256:c9b6db10dd7fcf55bd1712dd3537f86ddce72a08fd62bb1af4338c7096ce947e"},
+    {file = "types_tabulate-0.9.0.20240106-py3-none-any.whl", hash = "sha256:0378b7b6fe0ccb4986299496d027a6d4c218298ecad67199bbd0e2d7e9d335a1"},
+]
 
 [[package]]
 name = "typing-extensions"
@@ -601,4 +623,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "a429a29f47da92eff02921b524e4f3f6c698f6ba8567807a31ad33d5b0e88ddf"
+content-hash = "a90a31aaf6508124adc63ed1614889c7023ccf0a3b62239633ef00f7fd409ddc"
